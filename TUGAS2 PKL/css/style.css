@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .link a:hover{
+    color: rgb(226, 193, 6);
+  }
+
+  .link ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .link ul a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  .text {
+    margin: 150px;
+    text-align: center;
+    color: rgb(226, 193, 6);
+  }
+
+  .content1{
+    background-image: url(ok.png); 
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .content1>.text>p {
+    margin: 0;
+    font-size: 80px;
+    text-transform: capitalize;
+    
+  }
+
+  .gallery-container > .title {
+    margin: 60px 0px 70px 150px;
+    color: black;
+  }
+
+  .gallery-container > .title > h1 {
+    border-bottom: 5px solid black;
+    padding-bottom: 20px;
+    width: fit-content;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    gap: 40px;
+    
+  }
+  
+  .card-container1, .card-container2 {
+    display: flex;
+    gap: 20px;
+  }
+
+  .card1, .card2, .card3, .card4{
+    width: 50%;
+    height: 250px;
+    background-color: #333333;
+    padding: 20px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    transition: 0.6s;
+  }
+  
+  .card1 {
+    background-image: url(HNL1.jpg);
+    background-size: cover;
+  }
+  
+  
+  .card2 {
+    background-image: url(HNL2.jpg);
+    background-size: cover;
+  }
+  
+  .card3 {
+    background-image: url(HNL3.jpg);
+    background-size: cover;
+  }
+
+  
+  .card4 {
+    background-image: url(HNL4.jpg);
+    background-size: cover;
+  }
+  
+  
+  .jadwal-container {
+    color: #111111;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 30px 140px 70px 140px;
+  }
+
+  .jadwal-content {
+    width: 100%;
+  }
+
+  .jadwal-content > p {
+    margin: 0;
+  }
+
+  .jadwal-content > h1 {
+    border-bottom: 5px solid black;
+    padding-bottom: 20px; 
+    width: fit-content;
+  }
+
+
+  .footer {
+    width: 100%;
+    height: 4rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
